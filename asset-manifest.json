@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/clintmilner/dice/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/clintmilner/dice/static/js/main.c55d7783.chunk.js",
-    "main.js.map": "/clintmilner/dice/static/js/main.c55d7783.chunk.js.map",
-    "runtime-main.js": "/clintmilner/dice/static/js/runtime-main.4947d4cf.js",
-    "runtime-main.js.map": "/clintmilner/dice/static/js/runtime-main.4947d4cf.js.map",
-    "static/js/2.303471df.chunk.js": "/clintmilner/dice/static/js/2.303471df.chunk.js",
-    "static/js/2.303471df.chunk.js.map": "/clintmilner/dice/static/js/2.303471df.chunk.js.map",
-    "static/js/3.b3eb2e67.chunk.js": "/clintmilner/dice/static/js/3.b3eb2e67.chunk.js",
-    "static/js/3.b3eb2e67.chunk.js.map": "/clintmilner/dice/static/js/3.b3eb2e67.chunk.js.map",
-    "index.html": "/clintmilner/dice/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/clintmilner/dice/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.303471df.chunk.js.LICENSE.txt": "/clintmilner/dice/static/js/2.303471df.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/clintmilner/dice/static/media/logo.6ce24c58.svg"
+    "main.css": "/dice/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/dice/static/js/main.c55d7783.chunk.js",
+    "main.js.map": "/dice/static/js/main.c55d7783.chunk.js.map",
+    "runtime-main.js": "/dice/static/js/runtime-main.fdb1d479.js",
+    "runtime-main.js.map": "/dice/static/js/runtime-main.fdb1d479.js.map",
+    "static/js/2.303471df.chunk.js": "/dice/static/js/2.303471df.chunk.js",
+    "static/js/2.303471df.chunk.js.map": "/dice/static/js/2.303471df.chunk.js.map",
+    "static/js/3.b3eb2e67.chunk.js": "/dice/static/js/3.b3eb2e67.chunk.js",
+    "static/js/3.b3eb2e67.chunk.js.map": "/dice/static/js/3.b3eb2e67.chunk.js.map",
+    "index.html": "/dice/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/dice/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.303471df.chunk.js.LICENSE.txt": "/dice/static/js/2.303471df.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/dice/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4947d4cf.js",
+    "static/js/runtime-main.fdb1d479.js",
     "static/js/2.303471df.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.c55d7783.chunk.js"
