@@ -14,12 +14,12 @@ function App() {
 
     return (
         <div className="App">
-            <div className="roll" onClick={generateRoll}>ROLL</div>
+            <div className="roll" onClick={generateRoll} />
             <div className="dice">
                 <Die count={roll[0]}/>
                 <Die count={roll[1]}/>
             </div>
-            <div className="roll" role="button" onClick={generateRoll}>ROLL</div>
+            <div className="roll" role="button" onClick={generateRoll} />
         </div>
     );
 }
