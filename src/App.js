@@ -1,7 +1,8 @@
 import './App.css';
 import React, {useState} from 'react'
 import Die from "./Die";
-
+import useSound from "use-sound";
+import click from './click.mp3';
 
 function App() {
     const [roll, setRoll] = useState([1, 1])
@@ -12,14 +13,22 @@ function App() {
         setRoll([one, two])
     }
 
+    const RollBtn = () => {
+        const [play] = useSound(click)
+        return <div className="roll" onClick={() => {
+            play()
+            generateRoll()
+        }} />
+    }
+
     return (
         <div className="App">
-            <div className="roll" onClick={generateRoll} />
+            <RollBtn />
             <div className="dice">
                 <Die count={roll[0]}/>
                 <Die count={roll[1]}/>
             </div>
-            <div className="roll" role="button" onClick={generateRoll} />
+            <RollBtn />
         </div>
     );
 }
