@@ -1,23 +1,54 @@
-
+:root {
+  --blue1: #54a7f1;
+  --blue2: #388be1;
+  --blue3: #1e5297;
+  --blue4: #12264e;
+  --blueDeg: 45deg;
+  --green1: #9bc7b3;
+  --green2: #398388;
+  --green3: #2e6d79;
+  --green4: #143843;
+  --purp1: #a19fe0;
+  --purp2: #6d66b9;
+  --purp3: #43438b;
+  --purp4: #3f3871;
+  --warm1: #f7ce47;
+  --warm2: #f4b941;
+  --warm3: #ee6d2e;
+  --warm4: #da4c24;
+  --warm5: #d23521;
+  --warm6: #b82b1f;
+  --warm7: #71141a;
+  --warmDeg: 311deg;
+}
 .App {
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
   justify-content: space-between;
   padding: 20px 0;
 }
 
 .roll {
   height: 15vh;
-  background: cornflowerblue;
+  background-image: linear-gradient(var(--blueDeg), var(--blue1) 0%, var(--blue1) 25%, var(--blue2) 25%, var(--blue2) 50%, var(--blue3) 50%, var(--blue3) 75%, var(--blue4) 75%, var(--blue4) 100%);
+  /*background-image: linear-gradient(var(--blueDeg), var(--blue1), var(--blue1), var(--blue2), var(--blue3), var(--blue4));*/
+  /*background: linear-gradient(111deg, var(--purp1) 0%, var(--purp1) 25%, var(--purp2) 25%, var(--purp2) 50%, var(--purp3) 50%, var(--purp3) 75%, var(--purp4) 75%, var(--purp4) 100%);*/
+  /*background: linear-gradient(var(--warmDeg), var(--warm1), var(--warm2), var(--warm3) , var(--warm4) , var(--warm5) , var(--warm6) , var(--warm7) );*/
+  /*background: linear-gradient(336deg, var(--green1) 0%, var(--green1) 25%, var(--green2) 25%, var(--green2) 50%, var(--green3) 50%, var(--green3) 75%, var(--green4) 75%, var(--green4) 100%);*/
   width: 100%;
   cursor: pointer;
 }
+.roll:last-child {
+  background-image: linear-gradient(311deg, var(--blue1) 0%, var(--blue1) 25%, var(--blue2) 25%, var(--blue2) 50%, var(--blue3) 50%, var(--blue3) 75%, var(--blue4) 75%, var(--blue4) 100%);
+
+}
 .dice {
-  background:gold;
+  /*background:gold;*/
+  background: linear-gradient(var(--warmDeg), var(--warm1), var(--warm2), var(--warm3) , var(--warm4) , var(--warm5) , var(--warm6) , var(--warm7) );
+
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +67,7 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color:black;
+  background-color: #070707;
 }
 @media (min-width: 800px){
   .dice {
@@ -94,6 +125,3 @@
 .five .column:nth-of-type(2) {
   justify-content: center;
 }
-
-
-

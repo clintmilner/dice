@@ -9,7 +9,7 @@ function App() {
 
     const generateRoll = () => {
         const one = Math.floor((Math.random() * 6)) + 1
-        const two = Math.floor((Math.random() * 6))+ 1
+        const two = Math.floor((Math.random() * 6)) + 1
         setRoll([one, two])
     }
 
