@@ -1,5 +1,7 @@
 
 .App {
+  width: 100%;
+  margin: 0;
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
@@ -7,8 +9,6 @@
   flex-direction: column;
   /*align-items: center;*/
   justify-content: space-between;
-  font-size: calc(10px + 2vmin);
-  color: white;
   padding: 20px 0;
 }
 
@@ -40,8 +40,12 @@
     flex-direction: row;
   }
   .die {
-    width: 17vw;
-    height: 17vw;
+    width: 12vw;
+    height: 12vw;
+  }
+  .dot{
+    width: 20px;
+    height: 20px;
   }
 }
 .dot{
