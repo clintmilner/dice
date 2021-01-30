@@ -33,13 +33,23 @@
   border-radius: 12px;
   padding: 20px;
 }
+@media (min-width: 800px){
+  .dice {
+    background:hotpink;
+    height: 60vh;
+    flex-direction: row;
+  }
+  .die {
+    width: 17vw;
+    height: 17vw;
+  }
+}
 .dot{
   display: block;
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background-color:black;
-  /*margin: 25px;*/
 }
 .one {
   display: flex;
